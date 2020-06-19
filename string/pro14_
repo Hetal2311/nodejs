@@ -1,0 +1,7 @@
+str1 = raw_input("Enter your string")
+char_no=int(input("Number of character want to delete"))
+ 
+a = str1[:char_no]
+b = str1[char_no + 1 :]
+
+print( a+ b)

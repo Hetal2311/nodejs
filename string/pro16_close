@@ -1,0 +1,7 @@
+from difflib import get_close_matches
+#l=['aplle','app','pinapple','pine','piona','papap']
+#print(l)
+
+#str1=input("Enter your match")
+
+print (get_close_matches('apple',['app','apppp','aplle','pine','abd']))
